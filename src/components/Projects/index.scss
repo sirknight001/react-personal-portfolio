@@ -1,0 +1,29 @@
+.portfolio-page {
+    padding-left: 100px;
+    padding-right: 50px;
+    width: calc(100% - 150px);
+    height: 100%;
+    position: initial;
+    overflow: auto;
+
+    h1.page-title {
+        margin-left: 100px;
+        margin-top: 90px;
+    }
+}
+
+html {
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 414px) {
+    .container.portfolio-page {
+        width: 100%;
+        padding: 0;
+
+        h1.page-title {
+            margin-left: 40px;
+            margin-top: 115px;
+        }
+    }
+}

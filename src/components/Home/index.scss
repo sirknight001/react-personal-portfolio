@@ -1,0 +1,146 @@
+.home-page {
+    .text-zone {
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform:  translateY(-50%);
+        width: 40%;
+        max-height: 90%;
+    }
+
+    h1 {
+        color: #fff;
+        font-size: 53px;
+        margin: 0;
+        font-weight: 400;
+    }
+}
+
+h2 {
+    color: #3FD0C9;
+    margin-top: 20px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    letter-spacing: 3px;
+    animation: fadeIn 1s 1.8s backwards;
+}
+
+.flat-button {
+    color: #E1AD01;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: 'Poppins';
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #E1AD01;
+    margin-top: 25px;
+    float: left;
+    animation: fadeIn 1s 1.8s backwards;
+    white-space: nowrap;
+
+    &:hover {
+        background-color: #E1AD01;
+        color: #333;
+    }
+}
+
+  .App-logo {
+    position: absolute;
+    right: 0;
+    min-height: 50vh;
+    max-width: 75vh;
+    opacity: 0.5;
+  }
+
+  .instruction {
+    border: 10px solid black;
+    background-color: black;
+    border-radius: 20px;
+    position: absolute;
+    margin: 5%;
+    opacity: 0;
+  }
+
+  .nav-bar-instruction {
+    font-size: 20px;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes instruction {
+    0%{
+      opacity: 1;
+    }
+    25%{
+      opacity: 0.75;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    75%{
+      opacity: 0.25;
+    }
+    100%{
+      display: none;
+      opacity: 0;
+    }
+  }
+
+  .instruction {
+    animation-name: instruction;
+    animation: bounceInLeft;
+    animation-delay: 1.2s;
+    animation-duration: 4000ms;
+    animation-fill-mode: forwards;
+}
+
+@media screen and (max-width: 414px) {
+  .App-logo {
+    animation: none;
+    display: none;
+  }
+  .instruction {
+    animation: none;
+    opacity: 0;
+  }
+  .home-page {
+    .text-zone {
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform:  translateY(-50%);
+        width: 90%;
+        max-height: 100%;
+    }
+
+    h1 {
+        color: #fff;
+        font-size: 36px;
+        margin: 0;
+        font-weight: 400;
+    }
+    h2 {
+      color: #3FD0C9;
+      margin-top: 20px;
+      font-size: 15px;
+      font-weight: 400;
+      font-family: 'Poppins';
+      letter-spacing: 3px;
+      animation: fadeIn 1s 1.8s backwards;
+  }
+}
+}

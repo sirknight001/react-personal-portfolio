@@ -1,0 +1,52 @@
+{
+    "portfolio": [
+        {
+            "cover": "js-simple-calculator.png",
+            "title": "Calculator",
+            "description": "HTML5, CSS3, JavaScript",
+            "url": "https://sirk-simple-calculator.netlify.app/"
+        },
+        {
+            "cover": "react-25+5-clock.png",
+            "title": "25+5 Clock",
+            "description": "React, SASS, Bootstrap",
+            "url": "https://sirk-react-25-5-clock.netlify.app/"
+        },
+        {
+            "cover": "react-drum-machine.png",
+            "title": "Drum Machine",
+            "description": "React, SASS, Bootstrap",
+            "url": "https://sirk-react-drum-machine.netlify.app/"
+        },
+        {
+            "cover": "react-markdown-previewer.png",
+            "title": "MD Previewer",
+            "description": "React, SASS, Bootstrap",
+            "url": "https://sirk-react-markdown-previewer.netlify.app/"
+        },
+        {
+            "cover": "react-airbnb.png",
+            "title": "AirBnb",
+            "description": "React",
+            "url": "https://sirk-react-airbnb.netlify.app/"
+        },
+        {
+            "cover": "react-digital-business-card.png",
+            "title": "Business Card",
+            "description": "React",
+            "url": "https://sirk-digital-business-card.netlify.app/"
+        },
+        {
+            "cover": "react-envited-sample.png",
+            "title": "Envited UI",
+            "description": "React",
+            "url": "https://sirk-envited-site.netlify.app/"
+        },
+        {
+            "cover": "react-tetris-game.png",
+            "title": "Tetris",
+            "description": "React",
+            "url": "https://sirk-tetris-game.netlify.app/"
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+.about-page {
+    .text-zone {
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform:  translateY(-50%);
+        width: 40%;
+        max-height: 90%;
+    }
+
+    h1 {
+        color: #fff;
+        font-size: 53px;
+        margin: 0;
+        font-weight: 400;
+    }
+}
+
+p {
+    color: #fff;
+    font-size: 18px;
+    text-align: justify;
+}
+
+ul.certificates {
+    list-style: none;
+    display: flex;
+    
+    li {
+        margin-right: 20%;
+        
+        a {
+            padding: 7px 0;
+            display: block;
+            font-size: 40px;
+            line-height: 16px;
+        }
+    }
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.img {
+    width: 50vh;
+    height: 50vh;
+    border-radius: 15px;
+    position: absolute;
+    right: 0;
+    margin-right: 13%;
+    margin-top: 11%;
+    box-shadow: 0px 0 40px #fff;
+}
+
+@media screen and (max-width: 414px) {
+    .about-page {
+        h1.page-title {
+            margin-left: 20px;
+            margin-top: 90px;
+        }
+    }
+
+    .img {
+        width: 40vh;
+        height: 40vh;
+        position: static;
+        margin: 2% 0 5% 6.6%;
+    }
+}

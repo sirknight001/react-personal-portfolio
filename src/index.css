@@ -1,0 +1,21 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #02353C;
+  margin: 0;
+  font: 300px 11px/1.4;
+  font-family: 'Kanit';
+  color: #fff;
+  overflow: hidden;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 414px) {
+  body {
+    overflow: visible;
+  }
+}
