@@ -26,7 +26,7 @@ const About = () => {
           </h1>
           <p>
             A techie web developer looking for a role in an established IT company especially in
-            web development. Currently, a second-year Mechanical Engineering student at the Technological University
+            web development. Currently, a third-year Mechanical Engineering student at the Technological University
             of the Philippines.
           </p>
           <p>
