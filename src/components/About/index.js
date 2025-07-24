@@ -25,9 +25,7 @@ const About = () => {
             />
           </h1>
           <p>
-            A techie web developer looking for a role in an established IT company especially in
-            web development. Currently, a third-year Mechanical Engineering student at the Technological University
-            of the Philippines.
+            A tech-savvy web developer seeking a role in an established IT company, particularly in web development. Recently graduated with a Bachelor's degree in Mechanical Engineering from the Technological University of the Philippines.
           </p>
           <p>
             Confident in coding skills, a curious-cat, constantly learning the newest tech of the modern times. 
